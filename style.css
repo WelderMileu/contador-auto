@@ -83,6 +83,12 @@ body {
 }
 
 @media (max-width: 1000px) {
+	.container {
+		height: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
 	.container .content {
 		grid-template-columns: repeat(2, 1fr);
 	}

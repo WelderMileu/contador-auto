@@ -13,7 +13,7 @@
 			const inc = data / play;
 			
 			if (count < data) {
-				elem.innerText = count + inc;
+				elem.innerText = Math.ceil((count + inc));
 				setTimeout(contar, 10);
 			} else {
 				elem.innerText = count;
